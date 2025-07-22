@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riesling Summer Spritz Newsletter</title>
+    <style>
+        /* E-Mail-sichere CSS Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: linear-gradient(135deg, #DAA520, #F4D03F);
+            padding: 30px 30px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 20px;
+            background-color: rgba(255,255,255,0.9);
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .wine-icon {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 26px;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+        .subtitle {
+            margin: 15px 0 0 0;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 30px;
+        }
+        .greeting {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .quote {
+            font-size: 18px;
+            font-style: italic;
+            color: #DAA520;
+            text-align: center;
+            margin: 25px 0;
+            padding: 20px;
+            background-color: #fefdf8;
+            border-left: 4px solid #DAA520;
+            border-radius: 4px;
+        }
+        /* Zickzack-Layout Sections */
+        .zigzag-section {
+            display: table;
+            width: 100%;
+            margin: 30px 0;
+            border-collapse: collapse;
+        }
+        .zigzag-left, .zigzag-right {
+            display: table-cell;
+            vertical-align: middle;
+            width: 50%;
+            padding: 20px;
+        }
+        .zigzag-text {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #444;
+        }
+        .zigzag-image {
+            text-align: center;
+        }
+        .zigzag-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .zigzag-image .placeholder {
+            width: 200px;
+            height: 150px;
+            background: linear-gradient(135deg, #DAA520, #F4D03F);
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            color: white;
+            margin: 0 auto;
+        }
+        /* Rezept-Box */
+        .recipe-box {
+            background-color: #fefdf8;
+            border: 2px solid #DAA520;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        .recipe-box h3 {
+            color: #DAA520;
+            margin-top: 0;
+            text-align: center;
+        }
+        .recipe-box ul {
+            color: #444;
+            line-height: 1.6;
+            margin: 15px 0;
+        }
+        .recipe-box ul li {
+            margin-bottom: 8px;
+        }
+        .recipe-instruction {
+            color: #666;
+            font-style: italic;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, #DAA520, #F4D03F);
+            border-radius: 8px;
+            padding: 30px;
+            text-align: center;
+            margin: 30px 0;
+        }
+        .cta-text {
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 1.5;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #DAA520;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            border: 2px solid #ffffff;
+        }
+        .cta-button:hover {
+            background-color: transparent;
+            color: #ffffff;
+        }
+        .footer {
+            background-color: #f8f8f8;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            border-top: 1px solid #eee;
+        }
+        .footer a {
+            color: #DAA520;
+            text-decoration: none;
+        }
+        /* Mobile Responsive */
+        @media only screen and (max-width: 600px) {
+            .container {
+                width: 100% !important;
+                margin: 0 !important;
+                border-radius: 0 !important;
+            }
+            .header, .content, .footer {
+                padding: 20px !important;
+            }
+            .header h1 {
+                font-size: 22px !important;
+            }
+            .logo {
+                width: 100px !important;
+            }
+            .zigzag-section {
+                display: block !important;
+            }
+            .zigzag-left, .zigzag-right {
+                display: block !important;
+                width: 100% !important;
+                padding: 10px 0 !important;
+            }
+            .zigzag-image .placeholder {
+                width: 150px !important;
+                height: 100px !important;
+                font-size: 36px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section mit Logo -->
+        <div class="header">
+            <!-- Hier fügen Sie Ihr Logo ein -->
+            <img src="https://ihr-weingut-logo.de/logo.png" alt="Weingut Bibo Logo" class="logo">
+            <!-- Falls kein Logo verfügbar, zeigen wir das Wein-Emoji -->
+            <div class="wine-icon" style="display: none;">🍾</div>
+            
+            <h1>Riesling Summer Spritz</h1>
+            <p class="subtitle">by Weingut Bibo</p>
+        </div>
+        
+        <!-- Content Section -->
+        <div class="content">
+            <p class="greeting">Hallo [anrede] [kd_nachname],</p>
+            
+            <div class="quote">
+                "Monikas Geheimrezept für perfekte Sommerabende"
+            </div>
+            
+            <!-- Zickzack Sektion 1: Text links, Bild rechts -->
+            <div class="zigzag-section">
+                <div class="zigzag-left">
+                    <div class="zigzag-text">
+                        <strong>Wer sagt, dass Sekt nur zu Silvester passt?</strong><br><br>
+                        
+                        Dieser alkoholfreie Sommerdrink bringt prickelnden Genuss in den Alltag - leicht, 
+                        frisch und genau richtig für warme Tage, Gartenparties und Balkonabende.
+                    </div>
+                </div>
+                <div class="zigzag-right">
+                    <div class="zigzag-image">
+                        <div class="placeholder">🌞</div>
+                        <!-- Ersetzen Sie durch: <img src="ihr-sommer-bild.jpg" alt="Sommerstimmung"> -->
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Zickzack Sektion 2: Bild links, Text rechts -->
+            <div class="zigzag-section">
+                <div class="zigzag-left">
+                    <div class="zigzag-image">
+                        <div class="placeholder">🍹</div>
+                        <!-- Ersetzen Sie durch: <img src="cocktail-zutaten.jpg" alt="Cocktail Zutaten"> -->
+                    </div>
+                </div>
+                <div class="zigzag-right">
+                    <div class="zigzag-text">
+                        <strong>Ein paar Zutaten, ein großes Glas, ein bisschen Sommersonne</strong> - und schon schmeckt 
+                        der Sommer neu.<br><br>
+                        
+                        Monikas Sommeridee hat uns alle umgehauen: Ein alkoholfreier Cocktail, der garantiert 
+                        durch heiße Tage bringt.
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Rezept-Box -->
+            <div class="recipe-box">
+                <h3>🥂 Das Rezept</h3>
+                <ul>
+                    <li><strong>200ml</strong> alkoholfreier Riesling-Sekt</li>
+                    <li><strong>50ml</strong> frischer Orangensaft</li>
+                    <li><strong>1 Spritzer</strong> Zitronensaft</li>
+                    <li><strong>2-3</strong> frische Minzblätter</li>
+                    <li><strong>Eiswürfel</strong> nach Belieben</li>
+                    <li><strong>1 Scheibe</strong> Orange als Garnitur</li>
+                </ul>
+                <p class="recipe-instruction">
+                    Alle Zutaten in ein großes Weinglas geben, vorsichtig umrühren und genießen!
+                </p>
+            </div>
+            
+            <!-- Zickzack Sektion 3: Text links, Produkt rechts -->
+            <div class="zigzag-section">
+                <div class="zigzag-left">
+                    <div class="zigzag-text">
+                        <strong>Sekt zum Anstoßen war gestern!</strong><br><br>
+                        
+                        Wer sagt denn, dass prickelnder Genuss nur was für Silvester ist? 
+                        Dieser alkoholfreie Cocktail bringt garantiert Schwung in Gartenpartys 
+                        und Balkonabende.<br><br>
+                        
+                        <em>Einfach, stilvoll, erfrischend.</em>
+                    </div>
+                </div>
+                <div class="zigzag-right">
+                    <div class="zigzag-image">
+                        <div class="placeholder">🍾</div>
+                        <!-- Hier kommt Ihr Produktbild: -->
+                        <!-- <img src="deserteur-sparkling-riesling.jpg" alt="Deserteur Sparkling Riesling"> -->
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CTA Section -->
+            <div class="cta-section">
+                <div class="cta-text">
+                    <strong>Bereit für Ihren perfekten Sommer-Spritz?</strong><br>
+                    Holen Sie sich jetzt den alkoholfreien Riesling-Sekt und starten Sie in den Sommer!
+                </div>
+                <a href="https://shop-bibo-runge.de/collections/alkoholfreier-sekt/products/deserteur-sparkling-riesling" class="cta-button">Jetzt bestellen</a>
+            </div>
+        </div>
+        
+        <!-- Footer Section -->
+        <div class="footer">
+            <p><strong>Weingut Bibo</strong><br>
+            Ihre Adresse hier<br>
+            Telefon: [Ihre Telefonnummer]<br>
+            E-Mail: [Ihre E-Mail]</p>
+            
+            <p style="margin-top: 20px;">
+                <a href="[newsletter_abmelde_link]">Newsletter abmelden</a> | 
+                <a href="https://shop-bibo-runge.de/pages/datenschutz">Datenschutz</a> | 
+                <a href="https://shop-bibo-runge.de/pages/impressum">Impressum</a>
+            </p>
+            
+            <p style="margin-top: 15px; font-size: 12px; color: #999;">
+                Sie erhalten diese E-Mail, weil Sie sich für unseren Newsletter angemeldet haben.<br>
+                Falls Sie keine weiteren E-Mails erhalten möchten, können Sie sich jederzeit abmelden.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
