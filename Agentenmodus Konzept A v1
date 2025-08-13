@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riesling Summer Spritz Newsletter - Editorial</title>
+    <style>
+        /* Reset & Base */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        /* Design Tokens */
+        :root {
+            --amber-warm: #D4A574;
+            --black-deep: #1A1A1A;
+            --cream-soft: #FAF8F5;
+            --amber-light: #E8C49A;
+            --black-soft: #333333;
+            --spacing-xl: 32px;
+            --spacing-lg: 24px;
+            --spacing-md: 16px;
+            --spacing-sm: 8px;
+        }
+        
+        body {
+            font-family: Georgia, 'Times New Roman', serif;
+            background: var(--cream-soft);
+            color: var(--black-deep);
+            line-height: 1.6;
+        }
+        
+        /* Newsletter Container */
+        .story-canvas {
+            max-width: 620px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 8px 32px rgba(26, 26, 26, 0.1);
+        }
+        
+        /* Hero Story Section */
+        .story-hero {
+            position: relative;
+            background: linear-gradient(135deg, var(--amber-warm), var(--amber-light));
+            padding: var(--spacing-xl);
+            color: white;
+        }
+        
+        .story-hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20"><defs><pattern id="grain" patternUnits="userSpaceOnUse" width="100" height="20"><circle cx="10" cy="10" r="1.2" fill="white" opacity="0.1"/><circle cx="40" cy="5" r="0.8" fill="white" opacity="0.05"/><circle cx="70" cy="15" r="1" fill="white" opacity="0.08"/></pattern></defs><rect width="100%" height="100%" fill="url(%23grain)"/></svg>') repeat;
+        }
+        
+        .story-title {
+            position: relative;
+            font-size: 2.2rem;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            margin-bottom: var(--spacing-lg);
+            text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        
+        .story-greeting {
+            position: relative;
+            font-size: 1.1rem;
+            margin-bottom: var(--spacing-md);
+            font-family: Lato, Arial, sans-serif;
+            opacity: 0.95;
+        }
+        
+        .story-subtitle {
+            position: relative;
+            font-size: 1.3rem;
+            font-style: italic;
+            margin-bottom: var(--spacing-lg);
+            opacity: 0.9;
+        }
+        
+        /* Editorial Flow */
+        .editorial-flow {
+            padding: var(--spacing-xl);
+        }
+        
+        .flow-paragraph {
+            font-size: 1.1rem;
+            margin-bottom: var(--spacing-lg);
+            text-align: justify;
+        }
+        
+        .flow-paragraph:first-child::first-letter {
+            float: left;
+            font-size: 4rem;
+            line-height: 3rem;
+            padding-right: var(--spacing-sm);
+            color: var(--amber-warm);
+            font-weight: bold;
+        }
+        
+        /* Recipe as Elegant Module */
+        .recipe-prose {
+            background: var(--cream-soft);
+            padding: var(--spacing-xl);
+            margin: var(--spacing-xl) 0;
+            border-left: 4px solid var(--amber-warm);
+            position: relative;
+        }
+        
+        .recipe-prose::before {
+            content: '✦';
+            position: absolute;
+            top: var(--spacing-md);
+            right: var(--spacing-md);
+            font-size: 1.5rem;
+            color: var(--amber-warm);
+        }
+        
+        .recipe-headline {
+            font-size: 1.4rem;
+            color: var(--black-deep);
+            margin-bottom: var(--spacing-lg);
+            font-weight: bold;
+        }
+        
+        .ingredient-flow {
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .ingredient-flow .amount {
+            font-family: Lato, Arial, sans-serif;
+            font-weight: 600;
+            color: var(--amber-warm);
+        }
+        
+        .method-prose {
+            font-size: 1rem;
+            font-style: italic;
+            color: var(--black-soft);
+            border-top: 1px solid #ddd;
+            padding-top: var(--spacing-md);
+        }
+        
+        /* CTA as Elegant Call */
+        .story-invitation {
+            background: var(--black-deep);
+            color: white;
+            padding: var(--spacing-xl);
+            text-align: center;
+        }
+        
+        .invitation-text {
+            font-size: 1.2rem;
+            margin-bottom: var(--spacing-lg);
+            font-style: italic;
+        }
+        
+        .elegant-button {
+            display: inline-block;
+            background: var(--amber-warm);
+            color: white;
+            padding: var(--spacing-md) var(--spacing-xl);
+            text-decoration: none;
+            font-family: Lato, Arial, sans-serif;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            transition: all 0.3s ease;
+            border: 2px solid var(--amber-warm);
+            min-width: 160px;
+            min-height: 44px;
+            line-height: 1.2;
+        }
+        
+        .elegant-button:hover,
+        .elegant-button:focus {
+            background: transparent;
+            color: var(--amber-warm);
+            outline: 2px solid var(--amber-light);
+            outline-offset: 2px;
+        }
+        
+        /* Signature Block */
+        .story-signature {
+            padding: var(--spacing-xl);
+            background: var(--cream-soft);
+            text-align: center;
+        }
+        
+        .signature-brand {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: var(--amber-warm);
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .signature-details {
+            font-family: Lato, Arial, sans-serif;
+            font-size: 0.9rem;
+            color: var(--black-soft);
+            line-height: 1.4;
+        }
+        
+        /* Newsletter Footer */
+        .story-epilogue {
+            background: var(--black-deep);
+            color: white;
+            padding: var(--spacing-lg);
+            text-align: center;
+            font-family: Lato, Arial, sans-serif;
+            font-size: 0.8rem;
+            line-height: 1.5;
+        }
+        
+        .epilogue-links a {
+            color: var(--amber-light);
+            text-decoration: none;
+            margin: 0 var(--spacing-sm);
+        }
+        
+        .epilogue-links a:hover,
+        .epilogue-links a:focus {
+            text-decoration: underline;
+            outline: 1px solid var(--amber-light);
+            outline-offset: 2px;
+        }
+        
+        .epilogue-note {
+            margin-top: var(--spacing-md);
+            opacity: 0.8;
+            font-size: 0.75rem;
+        }
+        
+        /* Dark Mode */
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --cream-soft: #1A1A1A;
+                --black-deep: #FAF8F5;
+                --black-soft: #CCCCCC;
+            }
+            
+            .story-canvas {
+                background: #2A2A2A;
+            }
+            
+            .recipe-prose {
+                background: #333333;
+            }
+            
+            .story-signature {
+                background: #333333;
+            }
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 480px) {
+            .story-hero {
+                padding: var(--spacing-lg);
+            }
+            
+            .story-title {
+                font-size: 1.8rem;
+            }
+            
+            .editorial-flow,
+            .recipe-prose {
+                padding: var(--spacing-lg);
+            }
+            
+            .flow-paragraph:first-child::first-letter {
+                font-size: 3rem;
+                line-height: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="story-canvas">
+        <!-- Hero Story Section -->
+        <div class="story-hero">
+            <div class="story-greeting">Hallo [anrede] [kd_nachname],</div>
+            <h1 class="story-title">Riesling Summer Spritz Newsletter</h1>
+            <div class="story-subtitle">"Monikas Geheimrezept für perfekte Sommerabende"</div>
+        </div>
+        
+        <!-- Editorial Flow -->
+        <div class="editorial-flow">
+            <p class="flow-paragraph">Wer sagt, dass Sekt nur zu Silvester passt?</p>
+            
+            <p class="flow-paragraph">Dieser alkoholfreie Sommerdrink bringt prickelnden Genuss in den Alltag - leicht, frisch und genau richtig für warme Tage, Gartenparties und Balkonabende.</p>
+            
+            <p class="flow-paragraph">Ein paar Zutaten, ein großes Glas, ein bisschen Sommersonne – und schon schmeckt der Sommer neu.</p>
+            
+            <p class="flow-paragraph">Monikas Sommeridee hat uns alle umgehauen: Ein alkoholfreier Cocktail, der garantiert durch heiße Tage bringt.</p>
+        </div>
+        
+        <!-- Recipe as Elegant Module -->
+        <div class="recipe-prose">
+            <h2 class="recipe-headline">Das Rezept</h2>
+            <div class="ingredient-flow">
+                • <span class="amount">200 ml</span> alkoholfreier Riesling-Sekt<br>
+                • <span class="amount">50 ml</span> frischer Orangensaft<br>
+                • <span class="amount">1 Spritzer</span> Zitronensaft<br>
+                • <span class="amount">2–3</span> frische Minzblätter<br>
+                • Eiswürfel nach Belieben<br>
+                • <span class="amount">1 Scheibe</span> Orange als Garnitur
+            </div>
+            <div class="method-prose">
+                Alle Zutaten in ein großes Weinglas geben, vorsichtig umrühren und genießen!
+            </div>
+        </div>
+        
+        <!-- CTA as Elegant Call -->
+        <div class="story-invitation">
+            <p class="invitation-text">Bereit für Ihren perfekten Sommer-Spritz?</p>
+            <p class="invitation-text">Holen Sie sich jetzt den alkoholfreien Riesling-Sekt und starten Sie in den Sommer!</p>
+            <a href="#" class="elegant-button">Jetzt bestellen</a>
+        </div>
+        
+        <!-- Signature Block -->
+        <div class="story-signature">
+            <div class="signature-brand">Weingut Bibo</div>
+            <div class="signature-details">
+                Ihre Adresse hier<br>
+                Telefon: [Ihre Telefonnummer]<br>
+                E-Mail: [Ihre E-Mail]
+            </div>
+        </div>
+        
+        <!-- Newsletter Footer -->
+        <div class="story-epilogue">
+            <div class="epilogue-links">
+                <a href="#">Newsletter abmelden</a> |
+                <a href="#">Datenschutz</a> |
+                <a href="#">Impressum</a>
+            </div>
+            <div class="epilogue-note">
+                Sie erhalten diese E-Mail, weil Sie sich für unseren Newsletter angemeldet haben. Falls Sie keine weiteren E-Mails erhalten möchten, können Sie sich jederzeit abmelden.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
