@@ -5,8 +5,10 @@
   <meta name="x-apple-disable-message-reformatting">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Riesling Summer Spritz</title>
+
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
   <style>
     :root{
       --accent:#B71C1C;
@@ -62,7 +64,7 @@
             <td style="padding:8px 10px;">
               <table role="presentation" class="card">
                 <tr><td class="pad" align="center">
-                  <h1 class="h1">🍹 Riesling Summer Spritz 🌞</h1>
+                  <h1 class="h1">Riesling Summer Spritz</h1>
                 </td></tr>
               </table>
             </td>
