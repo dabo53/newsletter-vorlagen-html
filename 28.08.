@@ -50,6 +50,9 @@
               <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="border:2px solid #B71C1C;">
                 <tr>
                   <td style="padding:16px 18px;">
+                    <p style="margin:0 0 10px 0; font-size:16px; line-height:1.6; color:#B71C1C; font-weight:600;">
+                      Der Sommer neigt sich dem Ende, die gute Laune nicht!
+                    </p>
                     <p style="margin:0; font-size:16px; line-height:1.6; color:#333333;">
                       Bevor die Abende kühler werden: noch einmal Sommer ins Glas! Der alkoholfreie Riesling-Spritz verbindet Zitrus, feine Perlage und Kräuterfrische – perfekt für den Ausklang des Tages, Picknick oder Gartenrunde. Schnell gemixt, groß im Gefühl.
                     </p>
@@ -75,16 +78,16 @@
                          style="display:block; width:320px; max-width:100%; height:auto; border:0; margin:0 auto 12px auto;">
 
                     <ul style="margin:0 0 12px 20px; padding:0; font-size:16px; line-height:1.6; color:#B71C1C;">
-                      <li><strong>200 ml</strong> alkoholfreier Riesling-Sekt</li>
+                      <li><strong>200 ml</strong> DESERTEUR SPARKLING RIESLING</li>
                       <li><strong>50 ml</strong> frischer Orangensaft</li>
                       <li><strong>1 Spritzer</strong> Zitronensaft</li>
-                      <li><strong>2–3</strong> frische Minzblätter</li>
+                      <li><strong>frische Minzblätter</strong></li>
                       <li><strong>Eiswürfel</strong> nach Belieben</li>
                       <li><strong>1 Scheibe</strong> Orange als Garnitur</li>
                     </ul>
 
                     <p style="margin:0; font-size:16px; line-height:1.6; color:#B71C1C;">
-                      Alle Zutaten in ein großes Weinglas geben, vorsichtig umrühren und genießen!
+                      Alles in ein großes Weinglas geben, umrühren – genießen!
                     </p>
                   </td>
                 </tr>
@@ -95,15 +98,13 @@
           <!-- CTA -->
           <tr>
             <td class="p-24" align="center" style="padding:12px 24px 24px 24px; text-align:center;">
-              <p style="margin:0 0 6px 0; font-size:16px; line-height:1.6; color:#333333; font-weight:600;">
-                Bereit für Ihren perfekten Sommer-Spritz?
-              </p>
-              <p style="margin:0 0 16px 0; font-size:16px; line-height:1.6; color:#333333;">
-                Holen Sie sich jetzt den alkoholfreien Riesling-Sekt und starten Sie in den Sommer!
+              <p style="margin:0 0 8px 0; font-size:16px; line-height:1.6; color:#333333;">
+                Lust auf mehr? Unser alkoholfreier Favorit:
+                <strong>DESERTEUR SPARKLING RIESLING</strong>
               </p>
               <a href="https://shop-bibo-runge.de/collections/alkoholfreier-sekt/products/deserteur-sparkling-riesling"
-                 style="display:inline-block; background:#B71C1C; color:#ffffff; text-decoration:none; font-size:16px; line-height:20px; padding:14px 24px; border-radius:4px;">
-                 Jetzt bestellen
+                 style="display:inline-block; background:#B71C1C; color:#ffffff; text-decoration:none; font-size:16px; line-height:20px; padding:14px 24px; border-radius:4px; margin-top:12px;">
+                 Jetzt unseren DESERTEUR entdecken
               </a>
             </td>
           </tr>
