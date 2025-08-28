@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riesling Summer Spritz</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent:#B71C1C;
+      --text:#212121;
+      --muted:#6b6b6b;
+      --card:#fbfbfb;
+      --page:#f2f3f5;
+    }
+    body{margin:0;padding:0;background:var(--page);}
+    table{border-collapse:collapse;}
+    img{display:block;border:0;outline:none;text-decoration:none;}
+    p{margin:0;}
+    .container{width:640px;max-width:640px;}
+    .stack{padding:18px 12px;}
+
+    /* Card mit runder Ecke + roter Umrandung */
+    .card{
+      width:100%;
+      background:var(--card);
+      border:2px solid var(--accent);
+      border-radius:16px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.06);
+      overflow:hidden;
+    }
+    .pad{padding:22px 24px;}
+
+    /* Typo */
+    .h1{margin:0;font:700 26px/1.25 'Cinzel',serif;color:var(--text);text-align:center;}
+    .h2{margin:0 0 10px 0;font:600 18px/1.4 'Montserrat',Arial,sans-serif;color:var(--accent);}
+    .text{font:400 16px/1.65 'Montserrat',Arial,sans-serif;color:var(--text);}
+    .lead{font:600 16px/1.6 'Montserrat',Arial,sans-serif;color:var(--accent);margin-bottom:10px;}
+    .btn{
+      display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
+      font:600 16px/20px 'Montserrat',Arial,sans-serif;
+      padding:13px 22px;border-radius:999px;
+    }
+
+    @media only screen and (max-width:640px){
+      .container{width:100%!important}
+      .pad{padding:18px 16px!important}
+      .h1{font-size:22px!important}
+    }
+  </style>
+</head>
+<body>
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:var(--page);">
+    <tr>
+      <td align="center" class="stack">
+        <table role="presentation" class="container" cellspacing="0" cellpadding="0" border="0">
+
+          <!-- Card 1: Headline -->
+          <tr>
+            <td style="padding:8px 10px;">
+              <table role="presentation" class="card">
+                <tr><td class="pad" align="center">
+                  <h1 class="h1">🍹 Riesling Summer Spritz 🌞</h1>
+                </td></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Card 2: Einleitung -->
+          <tr>
+            <td style="padding:8px 10px;">
+              <table role="presentation" class="card">
+                <tr><td class="pad">
+                  <p class="lead">Der Sommer neigt sich dem Ende, die gute Laune nicht!</p>
+                  <p class="text">
+                    Bevor die Abende kühler werden: noch einmal Sommer ins Glas!
+                    Der alkoholfreie Riesling-Spritz verbindet Zitrus, feine Perlage und Kräuterfrische –
+                    perfekt für den Ausklang des Tages, Picknick oder Gartenrunde.
+                    Schnell gemixt, groß im Gefühl.
+                  </p>
+                </td></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Card 3: Bild -->
+          <tr>
+            <td style="padding:8px 10px;">
+              <table role="presentation" class="card">
+                <tr><td class="pad" align="center">
+                  <img src="https://raw.githubusercontent.com/dabo53/newsletter-bibo/refs/heads/main/Grok%20Cocktail%20Glas.jpeg"
+                       alt="Riesling Summer Spritz"
+                       width="340"
+                       style="width:340px;max-width:100%;height:auto;border-radius:12px;">
+                </td></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Card 4: Rezept -->
+          <tr>
+            <td style="padding:8px 10px;">
+              <table role="presentation" class="card">
+                <tr><td class="pad">
+                  <h2 class="h2">Das Rezept</h2>
+                  <ul style="margin:0 0 12px 18px;padding:0;font:400 16px/1.65 'Montserrat',Arial,sans-serif;color:var(--text);">
+                    <li><strong>200&nbsp;ml</strong> DESERTEUR SPARKLING RIESLING</li>
+                    <li><strong>50&nbsp;ml</strong> frischer Orangensaft</li>
+                    <li><strong>1 Spritzer</strong> Zitronensaft</li>
+                    <li>frische Minzblätter</li>
+                    <li><strong>Eiswürfel</strong> nach Belieben</li>
+                    <li><strong>1 Scheibe</strong> Orange als Garnitur</li>
+                  </ul>
+                  <p class="text" style="color:var(--accent);">
+                    Alles in ein großes Weinglas geben, umrühren – genießen!
+                  </p>
+                </td></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Card 5: CTA -->
+          <tr>
+            <td style="padding:8px 10px 10px 10px;">
+              <table role="presentation" class="card">
+                <tr><td class="pad" align="center">
+                  <p class="text" style="margin-bottom:12px;">
+                    Lust auf mehr? Unser alkoholfreier Favorit:
+                    <strong>DESERTEUR SPARKLING RIESLING</strong>
+                  </p>
+                  <a class="btn" href="https://shop-bibo-runge.de/collections/alkoholfreier-sekt/products/deserteur-sparkling-riesling">
+                    Jetzt unseren DESERTEUR entdecken
+                  </a>
+                </td></tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
