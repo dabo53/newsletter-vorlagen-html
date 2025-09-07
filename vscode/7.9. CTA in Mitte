@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta name="x-apple-disable-message-reformatting" />
+ <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+ <title>Bibo Runge – Revoluzzer Post</title>
+ <style>
+   body, table, td, div, p, a {
+     font-family: 'IBM Plex Sans', Arial, sans-serif;
+     -webkit-font-smoothing: antialiased;
+   }
+   img { display:block; border:0; line-height:100%; outline:none; }
+ </style>
+</head>
+
+<body style="margin:0; padding:0; background-color:#fafafa;" bgcolor="#fafafa">
+  <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#fafafa">
+    <tr>
+      <td align="center">
+        <!-- OUTER WRAPPER -->
+        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px; max-width:100%; background-color:#ffffff; border-radius:18px; overflow:hidden; position:relative;">
+          <tr>
+            <td align="center" valign="top" style="position:relative;">
+
+              <!-- Watermark Logo aligned to right -->
+              <img src="https://raw.githubusercontent.com/dabo53/newsletter-bibo/f3718a722e6e3b6bbafb4eae9412f3a581d3ec58/31.08.%20Wappen%201.png"
+                   alt="Bibo Runge Wappen"
+                   style="position:absolute; top:50%; right:0; transform:translateY(-50%); height:100%; width:auto; opacity:0.12; pointer-events:none; z-index:0;" />
+
+              <!-- CONTENT -->
+              <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="100%" style="position:relative; z-index:2;">
+                <tr>
+                  <td align="left" style="padding:24px 32px;">
+
+                    <!-- Header -->
+                    <div style="font-family:'Bebas Neue','IBM Plex Sans',Arial,sans-serif; font-weight:400; font-size:44px; line-height:44px; letter-spacing:1px; text-transform:uppercase; color:#112424; text-align:left; margin:0 0 6px 0;">
+                      Revoluzzer‑Post
+                    </div>
+                    <div style="font-family:'IBM Plex Sans',Arial,sans-serif; font-size:12px; line-height:18px; color:#5a6a6a; border-top:2px solid #112424; padding-top:6px; margin:0 0 16px 0;">
+                      Ausgabe • Weingut Bibo Runge
+                    </div>
+
+                    <!-- Image -->
+                    <img src="https://raw.githubusercontent.com/dabo53/newsletter-bibo/main/Rotwein%20CI.JPG"
+                         alt="Bibo Runge – Beispiel Rotwein"
+                         style="width:100%; max-width:520px; height:auto;">
+
+                    <!-- Spacer -->
+                    <div style="height:16px; line-height:16px;">&nbsp;</div>
+
+                    <!-- Headline -->
+                    <p style="font-size:24px; font-weight:700; color:#112424; margin:0 0 10px 0;">
+                      Premiere: Alkoholfreier Spätburgunder
+                    </p>
+
+                    <!-- Text paragraphs split -->
+                    <p style="font-size:16px; line-height:24px; color:#112424; margin:0 0 16px 0;">
+                      Weingut Bibo Runge stellt vor: unser erster alkoholfreier Spätburgunder. Schonend entalkoholisiert,
+                      bewahrt er die typischen Aromen von reifen Kirschen, feinen Kräutern und sanften Tanninen – elegant,
+                      klar und trinkig.
+                    </p>
+
+                    <p style="font-size:16px; line-height:24px; color:#112424; margin:0 0 16px 0;">
+                      Dieser besondere Wein ist nicht nur ein stilvolles Statement für bewussten Genuss, sondern auch ein
+                      Meilenstein in unserer Weingut-Geschichte. Er verbindet das traditionelle Handwerk mit moderner Technik
+                      und eröffnet so völlig neue Genussmomente.
+                    </p>
+
+                    <!-- CTA (panel with centered button) -->
+                    <table role="presentation" align="center" style="margin:30px auto 30px auto; background-color:#ffffff; border:2px solid #112424; border-radius:12px; padding:20px; max-width:400px;">
+                      <tr>
+                        <td align="center">
+                          <a href="#" style="font-family:'IBM Plex Sans', Arial, sans-serif; font-weight:700; font-size:20px; line-height:24px; color:#ffffff; background-color:#112424; text-decoration:none; padding:16px 28px; border-radius:8px; display:inline-block;">
+                            Jetzt entdecken
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <p style="font-size:16px; line-height:24px; color:#112424; margin:0;">
+                      Ob als eleganter Begleiter zum Abendessen oder als Genuss für zwischendurch – unser alkoholfreier
+                      Spätburgunder zeigt, dass Charakter und Tiefe auch ohne Alkohol möglich sind.
+                    </p>
+
+                    <!-- Spacer -->
+                    <div style="height:20px; line-height:20px;">&nbsp;</div>
+
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+        </table>
+        <!-- /OUTER WRAPPER -->
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
