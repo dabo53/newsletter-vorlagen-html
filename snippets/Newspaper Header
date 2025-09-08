@@ -1,0 +1,13 @@
+<!-- SNIPPET: Newspaper Header -->
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:600px;margin:0 auto;">
+  <tr>
+    <td style="padding:24px 32px; font-family:'IBM Plex Sans', Arial, sans-serif; color:#112424;">
+      <div style="font-family:'Bebas Neue','IBM Plex Sans',Arial,sans-serif; font-size:44px; line-height:44px; letter-spacing:1px; text-transform:uppercase; margin:0 0 6px;">
+        Revoluzzer-Post
+      </div>
+      <div style="font-size:12px; line-height:18px; color:#5a6a6a; border-top:2px solid #112424; padding-top:6px;">
+        Ausgabe • Weingut Bibo Runge
+      </div>
+    </td>
+  </tr>
+</table>
