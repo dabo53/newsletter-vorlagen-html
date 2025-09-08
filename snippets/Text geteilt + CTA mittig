@@ -1,0 +1,28 @@
+<!-- SNIPPET: Text split + centered CTA panel -->
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:600px;margin:0 auto;">
+  <tr>
+    <td style="padding:24px 32px; font-family:'IBM Plex Sans', Arial, sans-serif; color:#112424;">
+      <div style="font-size:16px; line-height:24px; margin:0 0 16px;">
+        Absatz 1 … Schonend entalkoholisiert …
+      </div>
+      <div style="font-size:16px; line-height:24px; margin:0 0 16px;">
+        Absatz 2 … Meilenstein, Handwerk + Technik …
+      </div>
+
+      <!-- CTA Panel -->
+      <table role="presentation" align="center" style="margin:30px auto; background-color:#ffffff; border:2px solid #112424; border-radius:12px; padding:20px; max-width:400px;">
+        <tr>
+          <td align="center">
+            <a href="LINK" style="font-family:'IBM Plex Sans', Arial, sans-serif; font-weight:700; font-size:20px; line-height:24px; color:#ffffff; background-color:#112424; text-decoration:none; padding:16px 28px; border-radius:8px; display:inline-block;">
+              Jetzt entdecken
+            </a>
+          </td>
+        </tr>
+      </table>
+
+      <div style="font-size:16px; line-height:24px; margin:0;">
+        Absatz 3 … Pairings/Anlass …
+      </div>
+    </td>
+  </tr>
+</table>
