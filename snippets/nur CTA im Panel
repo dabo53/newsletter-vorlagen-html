@@ -1,0 +1,10 @@
+<!-- SNIPPET: Centered CTA Button -->
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="max-width:600px;margin:0 auto;">
+  <tr>
+    <td align="center" style="padding:24px 32px;">
+      <a href="LINK" style="font-family:'IBM Plex Sans', Arial, sans-serif; font-weight:700; font-size:20px; line-height:24px; color:#ffffff; background-color:#112424; text-decoration:none; padding:16px 28px; border-radius:8px; display:inline-block;">
+        Jetzt entdecken
+      </a>
+    </td>
+  </tr>
+</table>
