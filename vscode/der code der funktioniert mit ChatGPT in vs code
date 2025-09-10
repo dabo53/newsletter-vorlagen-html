@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+  <title>Blanco A4 – Wappen</title>
+  <style>
+    /* Resets */
+    body{margin:0;padding:0;background:#ffffff;-webkit-font-smoothing:antialiased;}
+    img{border:0;outline:0;display:block;line-height:100%;text-decoration:none;-ms-interpolation-mode:bicubic;}
+    table{border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;}
+    a[x-apple-data-detectors]{color:inherit !important;text-decoration:none !important;}
+
+    /* Card width (email standard) */
+    .wrap{width:600px;max-width:600px;border-radius:18px;overflow:hidden;}
+
+    /* A4-Mindesthöhe (600 * 1.414 ≈ 848px) */
+    .a4min{height:848px;line-height:848px;font-size:0;}
+
+    /* Optional: Innenabstand für Inhalte */
+    .px{padding-left:28px;padding-right:28px;}
+    .py{padding-top:24px;padding-bottom:24px;}
+
+    @media screen and (max-width:620px){
+      .wrap{width:100% !important;max-width:100% !important;border-radius:0 !important;}
+      .px{padding-left:18px !important;padding-right:18px !important;}
+    }
+  </style>
+  <!--[if gte mso 9]>
+  <xml>
+    <o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings>
+  </xml>
+  <![endif]-->
+</head>
+<body bgcolor="#ffffff">
+
+  <table role="presentation" width="100%" bgcolor="#ffffff">
+    <tr>
+      <td align="center" style="padding:20px 0">
+
+        <!--[if gte mso 9]>
+        <!-- Outlook: VML-Container mit blassem Wappen rechts -->
+        <v:rect fill="true" stroke="false" style="width:600px;height:848px;">
+          <v:fill type="frame"
+                  src="https://raw.githubusercontent.com/dabo53/newsletter-bibo/f3718a722e6e3b6bbafb4eae9412f3a581d3ec58/31.08.%20Wappen%201.png"
+                  color="#FFFFFF"
+                  focusposition=".99,.5"
+                  opacity="0.12"/>
+          <v:textbox inset="0,0,0,0">
+        <![endif]-->
+
+        <!-- Moderne Clients: Background + weißes Overlay für Verblassung -->
+        <table role="presentation" class="wrap" width="600"
+               style="
+                 background:
+                   linear-gradient(0deg, rgba(255,255,255,0.88), rgba(255,255,255,0.88)),
+                   url('https://raw.githubusercontent.com/dabo53/newsletter-bibo/f3718a722e6e3b6bbafb4eae9412f3a581d3ec58/31.08.%20Wappen%201.png') no-repeat right center/auto 95%,
+                   #FFFFFF;">
+          <!-- ===== LEERER INHALTSBEREICH ===== -->
+          <tr>
+            <td class="px py" align="left" style="vertical-align:top;">
+              <!-- Inhalte hier einfügen -->
+              <!-- Titel-Snippet (H1 + Untertitel) -->
+              <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="left" style="padding: 6px 0 4px 0;">
+                    <div style="font-family: Arial, Helvetica, sans-serif; font-size: 36px; line-height: 42px; font-weight: 800; letter-spacing: 0.2px; color: #112424;">
+                      REVOLUZZER-POST
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" style="padding: 0 0 16px 0;">
+                    <div style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #6b7c85;">
+                      Ausgabe • Weingut Bibo Runge
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              <!-- ENDE Titel-Snippet -->
+              <!-- Textblock unterhalb des Headers -->
+              <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="left" style="padding: 0 0 6px 0;">
+                    <div style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; line-height: 26px; font-weight: 700; color: #112424;">
+                      Premiere: Alkoholfreier Spätburgunder
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" style="padding: 0 0 16px 0;">
+                    <div style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #112424;">
+                      Weingut Bibo Runge stellt vor: unser erster alkoholfreier Spätburgunder. Schonend entalkoholisiert, bewahrt er die typischen Aromen von reifen Kirschen, feinen Kräutern und sanften Tanninen – elegant, klar und trinkig.
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              <!-- ENDE Textblock unterhalb des Headers -->
+              <!-- Zusatz-Fließtext + CTA -->
+              <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="left" style="padding: 0 0 14px 0;">
+                    <div style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #112424;">
+                      Dieser besondere Wein ist nicht nur ein stilvolles Statement für bewussten Genuss, sondern auch ein Meilenstein in unserer Weingut-Geschichte. Er verbindet das traditionelle Handwerk mit moderner Technik und eröffnet so völlig neue Genussmomente.
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding: 2px 0 14px 0;">
+                    <table role="presentation" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td bgcolor="#112424" style="border-radius: 6px;">
+                          <a href="https://shop.weingut-bibo-runge.de/alkoholfrei" target="_blank" rel="noopener noreferrer"
+                             style="display: inline-block; padding: 12px 18px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 16px; color: #ffffff; text-decoration: none;">
+                            Jetzt entdecken
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" style="padding: 0 0 16px 0;">
+                    <div style="font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: #112424;">
+                      Ob als eleganter Begleiter zum Abendessen, als Alternative bei festlichen Anlässen oder einfach als Genuss für zwischendurch – unser alkoholfreier Spätburgunder zeigt, dass Charakter und Tiefe auch ohne Alkohol möglich sind. Mit seinem klaren Profil bringt er Frische und Vielschichtigkeit ins Glas.
+                    </div>
+                  </td>
+                </tr>
+              </table>
+              <!-- ENDE Zusatz-Fließtext + CTA -->
+              
+            </td>
+          </tr>
+
+          <!-- A4-Mindesthöhe-Füller (falls wenig Inhalt) -->
+          <tr>
+            <td class="a4min">&nbsp;</td>
+          </tr>
+          <!-- ===== ENDE INHALTSBEREICH ===== -->
+        </table>
+
+        <!--[if gte mso 9]></v:textbox></v:rect><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
