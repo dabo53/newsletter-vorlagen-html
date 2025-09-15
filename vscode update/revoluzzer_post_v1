@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+  <title>Revoluzzer Post – Neues Produkt</title>
+  <style>
+    /* Resets */
+    body{margin:0;padding:0;background:#ffffff;-webkit-font-smoothing:antialiased;}
+    img{border:0;outline:0;display:block;line-height:100%;text-decoration:none;-ms-interpolation-mode:bicubic;}
+    table{border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;}
+    a[x-apple-data-detectors]{color:inherit !important;text-decoration:none !important;}
+
+    /* Layout */
+    .wrap{width:600px;max-width:600px;border-radius:18px;overflow:hidden;}
+    .px{padding-left:28px;padding-right:28px;}
+    .py{padding-top:24px;padding-bottom:24px;}
+
+    /* Typo */
+    .h1{font-family:Arial,Helvetica,sans-serif;font-size:28px;line-height:1.2;margin:0 0 10px;color:#111111;font-weight:700;}
+    .copy{font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.5;color:#1b1b1b;margin:0;}
+    .muted{font-size:12px;color:#6b6b6b;}
+    .center{text-align:center;}
+
+    @media screen and (max-width:620px){
+      .wrap{width:100% !important;max-width:100% !important;border-radius:0 !important;}
+      .px{padding-left:18px !important;padding-right:18px !important;}
+    }
+  </style>
+  <!--[if gte mso 9]>
+  <xml>
+    <o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings>
+  </xml>
+  <![endif]-->
+</head>
+<body bgcolor="#ffffff" style="margin:0; padding:0;">
+
+  <!-- Preheader (Vorschautext) -->
+  <div style="display:none;max-height:0;overflow:hidden;opacity:0;">Neu: Unser Revoluzzer – klar, präzise, bereit für den Alltag.</div>
+
+  <table role="presentation" width="100%" bgcolor="#ffffff">
+    <tr>
+      <td align="center" style="padding:20px 0">
+
+        <!--[if gte mso 9]>
+        <!-- Outlook-Background (VML) -->
+        <v:rect fill="true" stroke="false" style="width:600px;">
+          <v:fill type="frame"
+                  src="https://raw.githubusercontent.com/dabo53/newsletter-bibo/main/70%25%20Background.png"
+                  color="#FFFFFF"
+                  focusposition=".99,.5"
+                  opacity="0.30"/>
+          <v:textbox inset="0,0,0,0">
+        <![endif]-->
+
+        <!-- Moderne Clients: Background + Overlay -->
+        <table role="presentation" class="wrap" width="600"
+               style="
+                 background:
+                   linear-gradient(0deg, rgba(255,255,255,0.80), rgba(255,255,255,0.80)),
+                   url('https://raw.githubusercontent.com/dabo53/newsletter-bibo/main/70%25%20Background.png') no-repeat right center/auto 95%,
+                   #FFFFFF;">
+
+          <!-- Header -->
+          <tr>
+            <td class="px py center">
+              <h1 class="h1" style="font-family:Arial,Helvetica,sans-serif;font-size:28px;line-height:1.2;margin:0 0 6px;color:#111111;font-weight:700;">
+                Revoluzzer&nbsp;Post
+              </h1>
+              <p class="muted" style="margin:0;">Neues Produkt · limitiert · jetzt entdecken</p>
+            </td>
+          </tr>
+
+          <!-- Intro-Text -->
+          <tr>
+            <td class="px" style="padding-top:8px;padding-bottom:8px;">
+              <p class="copy" style="margin:0 0 12px;">
+                Klar im Auftritt, kompromisslos im Geschmack: <strong>Revoluzzer</strong> vereint präzise Handarbeit mit
+                reduziertem Design. Gemacht für Menschen, die Understatement lieben – und Qualität schmecken.
+              </p>
+            </td>
+          </tr>
+
+          <!-- Produktbilder -->
+          <tr>
+            <td class="px" style="padding-top:4px;padding-bottom:12px;">
+              <img src="https://raw.githubusercontent.com/dabo53/newsletter-bibo/f0c2ef542a0ce1ef57b28c396563e44b294c44ff/fotoshooting/flasche-trauben.jpg"
+                   alt="Revoluzzer – Flasche mit Trauben"
+                   width="560"
+                   style="width:100%;max-width:560px;height:auto;border-radius:8px;">
+            </td>
+          </tr>
+          <tr>
+            <td class="px" style="padding-top:0;padding-bottom:16px;">
+              <img src="https://raw.githubusercontent.com/dabo53/newsletter-bibo/f0c2ef542a0ce1ef57b28c396563e44b294c44ff/fotoshooting/glas-schwenk-final.jpg"
+                   alt="Revoluzzer – Glas im Schwenk"
+                   width="560"
+                   style="width:100%;max-width:560px;height:auto;border-radius:8px;">
+            </td>
+          </tr>
+
+          <!-- CTA -->
+          <tr>
+            <td align="center" style="padding:4px 28px 20px;">
+              <!--[if mso]>
+              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word"
+                  href="LINK_ZUM_PRODUKT"
+                  style="height:48px;v-text-anchor:middle;width:280px;" arcsize="8%" stroke="f" fillcolor="#111111">
+                <w:anchorlock/>
+                <center style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;">
+                  Jetzt entdecken
+                </center>
+              </v:roundrect>
+              <![endif]-->
+              <!--[if !mso]><!-- -->
+              <a href="LINK_ZUM_PRODUKT" target="_blank"
+                 style="background:#111111;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;line-height:48px;display:inline-block;width:280px;text-align:center;border-radius:6px;text-decoration:none;">
+                 Jetzt entdecken
+              </a>
+              <!--<![endif]-->
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td class="px py" style="padding-top:12px;">
+              <p class="muted" style="margin:0 0 4px;"><strong>Untergrundstyles</strong> · Straße 1 · 12345 Stadt</p>
+              <p class="muted" style="margin:0 0 4px;">Fragen? Antworte auf diese E-Mail oder schreibe an <a href="mailto:hello@example.com" style="color:#6b6b6b;">hello@example.com</a>.</p>
+              <p class="muted" style="margin:0;">Kein Interesse mehr? <a href="UNSUBSCRIBE_LINK" style="color:#6b6b6b;">Abmelden</a></p>
+            </td>
+          </tr>
+
+        </table>
+        <!--[if gte mso 9]></v:textbox></v:rect><![endif]-->
+
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
