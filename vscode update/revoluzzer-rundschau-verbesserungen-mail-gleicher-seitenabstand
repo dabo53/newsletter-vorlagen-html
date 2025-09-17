@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta name="format-detection" content="telephone=no, date=no, address=no, email=no">
+    <title>Premiere: Der neue Deserteur Pinot Noir – alkoholfrei genießen und 10% sparen</title>
+    <style type="text/css">
+      /* Basic email resets */
+      body, table, td, p { margin:0; padding:0; }
+      img { border:0; outline:none; text-decoration:none; display:block; line-height:100%; }
+      table { border-collapse:collapse; }
+      /* Fonts fallbacks */
+      .sans { font-family: Nunito, Arial, sans-serif; }
+      /* Helpers */
+      .wrap { width:600px; max-width:600px; }
+      .px   { padding-left:24px; padding-right:24px; }
+      .lead { font-size:16px; line-height:1.6; color:#333333; }
+      .small{ font-size:14px; line-height:1.5; color:#666666; }
+      .rule-gap { margin:24px 0; }
+      .btn-link { text-decoration:none; color:#7a0000; font-weight:700; }
+      /* Rounded corners for the whole card + images (supported in most clients) */
+      .card { border-radius:16px; overflow:hidden; }
+      .rounded { border-radius:16px; }
+      @media (max-width:620px){
+        .px{ padding-left:16px !important; padding-right:16px !important; }
+        .lead{ font-size:15px !important; }
+      }
+    </style>
+  </head>
+  <body style="background:#ffffff;">
+    <!-- Hidden preheader: controls the small preview line in inboxes -->
+    <div style="display:none; font-size:1px; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden;">
+      Jetzt neu: alkoholfreier Spätburgunder · DESERTEUR Pinot Noir Zero von BIBO RUNGE.
+    </div>
+
+    <!-- Outer wrapper (centers everything) -->
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background:#ffffff;">
+      <tr>
+        <td align="center" style="padding:24px 12px;">
+          <!-- Card -->
+          <table role="presentation" class="wrap card" width="600" cellspacing="0" cellpadding="0" style="background:#ffffff; box-shadow:0 2px 16px rgba(0,0,0,0.06);">
+            <!-- HEADER (Canva image) -->
+            <tr>
+              <td>
+                <img src="https://nephele-s5.de/bilder/newsletter/1996-2025-09-16-03-49-21.png"
+                     width="600" height="400" alt="Revoluzzer Rundschau – Weingut BIBO RUNGE"
+                     style="width:100%; height:auto; border-radius:16px 16px 0 0;">
+              </td>
+            </tr>
+
+            <!-- FIRST PRODUCT IMAGE: Flasche im Traubenbett -->
+            <tr>
+              <td class="px" style="padding-top:24px;">
+                <img src="https://nephele-s5.de/bilder/newsletter/1996-2025-09-15-15-48-37.jpg"
+                     width="552" alt="DESERTEUR Pinot Noir Zero – Flasche auf Trauben"
+                     class="rounded"
+                     style="width:100%; max-width:552px; height:auto;">
+              </td>
+            </tr>
+
+            <!-- Personal greeting under first image -->
+            <tr>
+              <td class="px" style="padding:16px 24px 0;">
+                <p class="sans lead" style="margin:0 0 12px; font-size:16px; color:#333333;">[anrede],</p>
+              </td>
+            </tr>
+
+            <!-- Intro copy -->
+            <tr>
+              <td class="px" style="padding:0 24px 4px;">
+                <p class="sans lead" style="margin:0 0 12px;">
+                  Wir haben lange daran gearbeitet – jetzt ist er endlich da: <strong>DESERTEUR Pinot Noir, unser erster alkoholfreier Rotwein!</strong>
+                </p>
+                <p class="sans lead" style="margin:0;">
+                  Ein entalkoholisierter Spätburgunder, der zeigt, dass echter Genuss keinen Alkohol braucht: trocken, balanciert, mit feinen Tanninen und eleganter Frucht – und ohne die übertriebene Süße, die man sonst von alkoholfreien Rotweinen kennt.
+                </p>
+              </td>
+            </tr>
+
+            <!-- CTA (anchor carries padding so the whole chip is clickable) -->
+            <tr>
+              <td class="px" align="center" style="padding:24px 24px;">
+                <!-- Promo: 10% Rabatt Hinweis -->
+                <p class="sans lead" style="margin:0 0 12px; text-align:left;">
+                  <strong>Zur Einführung: 10% Rabatt auf alle alkoholfreien Deserteure</strong> (bei einer Bestellung bis xx.0.25).
+                </p>
+                <a href="https://shop-bibo-runge.de/collections/alkoholfreier-wein/products/deserteur-pinot-noir-alkoholfreier-rose-spatburgunder"
+                   class="sans btn-link"
+                   style="display:inline-block; border:2px solid #7a0000; border-radius:8px; padding:12px 18px; font-size:16px; color:#7a0000; text-decoration:none; font-weight:700;">
+                  Jetzt entdecken & sparen
+                </a>
+                <p class="sans lead" style="margin:12px 0 0; text-align:left;">
+                  Jetzt ist der perfekte Zeitpunkt, unsere alkoholfreien Weine zu entdecken – oder gleich nachzubestellen.
+                </p>
+              </td>
+            </tr>
+
+            <!-- Body copy -->
+            <tr>
+              <td class="px" style="padding:0 24px 0;">
+                <p class="sans lead" style="margin:0 0 12px;">
+                  Ob zum leichten Abendessen, zu Käse, Pasta oder einfach als genussvoller Begleiter – der neue Deserteur Pinot Noir passt perfekt in jeden Moment, in dem man nicht auf Geschmack, aber auf Alkohol verzichten möchte.
+                </p>
+              </td>
+            </tr>
+
+            <!-- Optional: kleines Wappen am Fuß (TODO: URL ersetzen und Kommentar entfernen) -->
+            <!--
+            <tr>
+              <td class="px" align="center" style="padding:16px 24px 0;">
+                <img src="https://nephele-s5.de/bilder/newsletter/WAPPEN-KLEIN.png" width="96" alt="BIBO RUNGE – Wappen klein" style="width:96px; height:auto;">
+              </td>
+            </tr>
+            -->
+
+            <!-- Hinweis: Gleiche visuelle Höhe in allen Clients nur zuverlässig, wenn beide Quellbilder in Canva gleich zugeschnitten sind (z. B. 1200x800). -->
+            <!-- SECOND IMAGE: Glas im Schwung -->
+            <tr>
+              <td class="px" style="padding:16px 24px 0;">
+                <img src="https://nephele-s5.de/bilder/newsletter/1996-2025-09-15-16-15-23.jpg"
+                     width="552" alt="Spätburgunder alkoholfrei im Glas"
+                     class="rounded"
+                     style="width:100%; max-width:552px; height:auto;">
+              </td>
+            </tr>
+
+            <!-- Divider with center gap (no text) -->
+            <tr>
+              <td class="px" style="padding:28px 24px 0;">
+                <table role="presentation" width="100%" class="rule-gap" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="border-top:2px solid #2c2c2c;"></td>
+                    <td style="width:110px;"></td>
+                    <td style="border-top:2px solid #2c2c2c;"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- FOOTER -->
+            <tr>
+              <td class="px" style="padding:16px 24px 28px;">
+                <p class="sans small" style="margin:8px 0 12px; text-align:center;">
+                  <!-- TODO: Ersetze # durch echte Profile/URLs -->
+                  <a href="#" style="color:#666666; text-decoration:underline;">Instagram</a>
+                  &nbsp;•&nbsp;
+                  <a href="#" style="color:#666666; text-decoration:underline;">Facebook</a>
+                </p>
+                <p class="sans small" style="margin:0 0 6px; text-align:center;">
+                  <strong>Untergrundstyles</strong> · Eberbacher Str. 5 · 65375 Oestrich‑Winkel
+                </p>
+                <p class="sans small" style="margin:0 0 6px; text-align:center;">
+                  <a href="https://shop-bibo-runge.de/policies/legal-notice" style="color:#666666; text-decoration:underline;">Impressum</a>
+                  &nbsp;•&nbsp;
+                  <!-- TODO: Ersetze # durch den Winestro-Abmeldelink/Platzhalter aus Einstellungen → E-Mail-Papier -->
+                  <a href="#" style="color:#666666; text-decoration:underline;">Abmelden</a>
+                </p>
+              </td>
+            </tr>
+
+          </table>
+          <!-- /card -->
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
