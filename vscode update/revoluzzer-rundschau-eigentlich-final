@@ -132,13 +132,16 @@
                       <img src="https://raw.githubusercontent.com/dabo53/newsletter-bibo/main/30%25%20halbes%20Logo.png" width="110" alt="Untergrundstyles Logo gespiegelt" style="width:110px; height:auto; transform: scaleX(-1); display:block;">
                     </td>
                     <td align="center" style="padding:0; vertical-align: middle;">
-                      <p class="sans small" style="margin:8px 0 12px; text-align:center;">
-                        <!-- TODO: Ersetze # durch echte Profile/URLs -->
-                        <a href="#" style="color:#666666; text-decoration:underline;">Instagram</a>
-                        &nbsp;•&nbsp;
-                        <a href="#" style="color:#666666; text-decoration:underline;">Facebook</a>
-                        &nbsp;•&nbsp;
-                        <a href="https://www.youtube.com/channel/UCcPFdeGeqHO-WT_D6lZ02jQ" style="color:#666666; text-decoration:underline;">YouTube</a>
+                      <p style="margin:8px 0 12px; text-align:center;">
+                        <a href="https://www.instagram.com/weingutbiborunge/" style="margin:0 6px; display:inline-block;">
+                          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" width="24" alt="Instagram" style="width:24px; height:24px;">
+                        </a>
+                        <a href="https://www.facebook.com/WeingutBiboRunge/" style="margin:0 6px; display:inline-block;">
+                          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" width="24" alt="Facebook" style="width:24px; height:24px;">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCcPFdeGeqHO-WT_D6lZ02jQ" style="margin:0 6px; display:inline-block;">
+                          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" width="24" alt="YouTube" style="width:24px; height:24px;">
+                        </a>
                       </p>
                       <p class="sans small" style="margin:0 0 6px; text-align:center;">
                         <strong>Weingut Bibo Runge</strong> · Eberbacher Str. 5 · 65375 Oestrich‑Winkel
