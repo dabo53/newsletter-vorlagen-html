@@ -35,6 +35,14 @@
 			.btn-01 a{color:#fff; text-decoration:none; display:block; padding:12px 18px; font-family:'Bebas Neue', 'Nunito', 'Lato', Arial, Helvetica, sans-serif; font-weight:700; font-size:15px; line-height:20px; letter-spacing:0.5px;}
 			.btn-01 td:hover{background:#6d1b1b!important;}
 			.btn-01 td:hover a{color:#fff!important; text-decoration:none!important;}
+			td.tflex p{
+				word-wrap:break-word;
+				overflow-wrap:anywhere;
+				-ms-word-break:break-all;
+				word-break:break-word;
+				white-space:normal;
+				hyphens:auto;
+			}
 			@media only screen and (max-width:617px) {
 				.w-100p{width:100%!important;}
 				.tflex{display:block!important;width:100%!important;}
@@ -52,7 +60,8 @@
 					<table class="w-100p" width="600" align="center" style="max-width:600px; margin:0 auto;" cellpadding="0" cellspacing="0">
 						<tr>
 							<td style="display:none; font-family:'Bebas Neue', 'Nunito', 'Lato', Arial, Helvetica, sans-serif; font-weight:700; font-size:32px; line-height:34px; color:#661d1d; letter-spacing:1px;">
-								Weinlese 2025 - früh gestartet, gemeinsam gemeistert!
+								REVOLUZZER RUNDSCHAU – OKT 2025<br />
+								So schmeckt der Herbst bei Bibo Runge
 							</td>
 						</tr>
 						<tr>
@@ -64,7 +73,7 @@
 											<img src="https://raw.githubusercontent.com/dabo53/newsletter-vorlagen-html/d88918b69d682ec6cbcb0d2052dac0fb3b282328/Lese%20Event%20Rabatt/Header%20Lese%20Events%20Rabatt.png"
 											width="552"
 											style="width:552px; font:700 16px/20px Arial, Helvetica, sans-serif; color:#000; vertical-align:top;"
-											alt="Revoluzzer Rundschau – Weingut BIBO RUNGE" />										
+											alt="REVOLUZZER RUNDSCHAU – OKT 2025" />										
 										</td>
 									</tr>
 									<!-- main -->
@@ -77,21 +86,13 @@
 															[anrede],
 														</p>
 														<p style="margin:24px 0 12px; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; color:#333;">
-															Der Herbst legt sich sanft über die Weinberge und bringt diese besondere Mischung aus goldener Wärme und frischer Morgenluft mit sich. Draußen kehrt langsam Ruhe ein, während wir den letzten Trauben beim Reifen zusehen und jeden Tag die Stimmung im Weinberg aufs Neue genießen.
-															<br /><br />
-															Im Keller herrscht jetzt konzentrierte Gelassenheit: Fässer werden vorbereitet, Moste probiert und ihre weitere Reise begleitet. Es ist die Zeit, in der Hingabe und Geduld zusammenkommen – und wir freuen uns darauf, die Ergebnisse bald mit Ihnen zu teilen.
+															Unsere Lese startete so früh wie nie – bereits Ende August. Obwohl der Sommer gefühlt gar nicht außergewöhnlich heiß war, reiften die Trauben in diesem Jahr deutlich früher als erwartet. Wechselhafte Witterung und selektive Handarbeit im Weinberg sorgten für kleinere Mengen, dafür aber für besonders aromatisches und klares Lesegut.<br /><br />
+															Dank unseres großartigen Teams sind wir mit dem Jahrgang sehr zufrieden. Im Keller kehrt nun Ruhe ein – die Moste gären leise vor sich hin, während draußen die Weinberge in goldenes Licht getaucht sind. Es ist diese Zeit, in der man spürt, warum sich die Mühe lohnt.
 														</p>
-													</td>
-												</tr>
-												<tr>
-													<td style="padding:0 0 24px;">
-														<table width="100%" cellpadding="0" cellspacing="0" >
+														<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin:24px 0;">
 															<tr>
-																<td class="wi-100p" align="center" style="padding:0 10px;">
-																	<img src="https://raw.githubusercontent.com/dabo53/newsletter-vorlagen-html/main/Prototyp%20Lese/Sonnenaufgang.png" width="264" style="width:264px; max-width:264px; border-radius:16px;" alt="Lesebild" />
-																</td>
-																<td class="wi-100p" align="center" style="padding:0 10px;">
-																	<img src="https://raw.githubusercontent.com/dabo53/newsletter-vorlagen-html/main/Prototyp%20Lese/Traube%20Hand.png" width="264" style="width:264px; max-width:264px; border-radius:16px;" alt="Lesebild" />
+																<td align="center" style="padding:0;">
+																	<img src="https://raw.githubusercontent.com/dabo53/newsletter-vorlagen-html/main/Lese%20Event%20Rabatt/Weingut-62%202.jpg" width="100%" style="width:100%; max-width:552px; border-radius:12px; display:block;" alt="Traubenlese im Weinberg" />
 																</td>
 															</tr>
 														</table>
@@ -99,150 +100,143 @@
 												</tr>
 												<tr>
 													<td style="padding:0 10px; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; color:#333;">
-														<p style="margin:16px 0; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; color:#333;">
-															Seit Sonnenaufgang sind wir in den steilen Lagen unterwegs, lesen jede Traube von Hand und sortieren behutsam. So bleibt die Morgenfrische im Most, während jede Partie einzeln im Fass reift.
+														<p style="margin:24px 0 12px; font:400 17px/25px 'Nunito', Arial, Helvetica, sans-serif; color:#333;">
+															Für die kalten Tage und festlichen Abende haben wir besondere Genuss-Pakete zusammengestellt:
 														</p>
-													</td>
-												</tr>
-												<tr>
-													<td style="padding:0 10px; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; color:#333;">
-														<div style="margin:32px 0;">
-															<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background:#fafafa; border:1px solid #ddd; border-radius:12px;">
-																<tr>
-																	<td style="padding:24px; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; color:#333;">
-																		<p style="margin:0 0 16px; font:400 22px/26px 'Bebas Neue', 'Nunito', 'Lato', Arial, Helvetica, sans-serif; letter-spacing:1px; color:#333; text-align:center;">
-																			Unten finden Sie unsere Events im Herbst – und für alle, die nicht dabei sein können, gibt’s hier unsere alkoholfreien Probierpakete für zu Hause.
-																		</p>
-																		<p style="margin:0 0 16px; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; color:#333;">
-																			
-																		</p>
-																		<table align="center" cellpadding="0" cellspacing="0" role="presentation">
-																			<tr>
-																				<td class="tflex" align="center" style="padding:0 8px 12px 0;">
-																					<table class="btn-01" align="center" cellpadding="0" cellspacing="0" role="presentation" style="background:#8b2323; border-radius:999px;">
-																						<tr>
-																							<td style="background:#8b2323; border-radius:999px;">
-																								<a href="https://shop-bibo-runge.de/products/deserteur-zero-3er-probierpaket-alkoholfreier-wein?variant=54469289738508" style="color:#fff; text-decoration:none; display:block; padding:12px 18px; font-family:'Bebas Neue', 'Nunito', 'Lato', Arial, Helvetica, sans-serif; font-weight:700; font-size:15px; line-height:20px; letter-spacing:0.5px;">Deserteur Zero – 3er-Paket</a>
-																							</td>
-																						</tr>
-																					</table>
-																				</td>
-																				<td class="tflex" align="center" style="padding:0 0 12px 8px;">
-																					<table class="btn-01" align="center" cellpadding="0" cellspacing="0" role="presentation" style="background:#8b2323; border-radius:999px;">
-																						<tr>
-																							<td style="background:#8b2323; border-radius:999px;">
-																								<a href="https://shop-bibo-runge.de/products/deserteur-mal-funf-5er-probierpaket-alkoholfreier-wein-und-sekt?variant=54469271027980" style="color:#fff; text-decoration:none; display:block; padding:12px 18px; font-family:'Bebas Neue', 'Nunito', 'Lato', Arial, Helvetica, sans-serif; font-weight:700; font-size:15px; line-height:20px; letter-spacing:0.5px;">Deserteur mal Fünf – 5er-Paket</a>
-																							</td>
-																						</tr>
-																					</table>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
-															</table>
-														</div>
-														<p style="margin:0 0 12px; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; color:#333; text-align:center;">
-															Und wenn Sie lieber etwas anderes entdecken möchten – stöbern Sie in unserem gesamten Sortiment:
+
+														<div style="background:#fafafa; border:1px solid #ddd; border-radius:12px; padding:24px 20px; margin:32px 0;">
+										<p style="margin:0 0 6px; font:700 18px 'Nunito', Arial, sans-serif; color:#8b2323;">Adventspaket</p>
+									<p style="margin:0 0 8px; font:300 15px/23px 'Nunito', Arial, sans-serif; color:#444;">Je eine Flasche PROVOKATEUR Sekt, KLEINER REVOLUZZER ’23, ROMANTIKER ’24, HARGARDUN ’23, PINOT ROSÉ ’24 und PINOT NOIR M ’22.</p>
+									<p style="margin:0 0 16px; font:400 15px/23px 'Nunito', Arial, sans-serif; color:#333;">79 € inkl. Versandkosten (anstatt 98 €)</p>
+									<hr style="border:none; border-top:1px solid #ddd; margin:16px 0;" />
+										<p style="margin:0 0 6px; font:700 18px 'Nunito', Arial, sans-serif; color:#8b2323;">Festtagspaket</p>
+									<p style="margin:0 0 8px; font:300 15px/23px 'Nunito', Arial, sans-serif; color:#444;">Je zwei Flaschen Crémant Rheingau Riesling ’20, HARGARDUN ’23, KLEINER REVOLUZZER ’23, ACHTZEHN48 ’23, PINOT ROSÉ ’24 und PINOT NOIR M ’22.</p>
+									<p style="margin:0 0 16px; font:400 15px/23px 'Nunito', Arial, sans-serif; color:#333;">159 € inkl. Versandkosten (anstatt 201,10 €)</p>
+									<hr style="border:none; border-top:1px solid #ddd; margin:16px 0;" />
+										<p style="margin:0 0 6px; font:700 18px 'Nunito', Arial, sans-serif; color:#8b2323;">Paket „Neuer Jahrgang“</p>
+									<p style="margin:0 0 8px; font:300 15px/23px 'Nunito', Arial, sans-serif; color:#444;">Je eine Flasche PROVOKATEUR Sekt, KLEINER REVOLUZZER ’24, ROMANTIKER ’24, HARGARDUN ’24, PINOT ROSÉ ’24 und PINOT NOIR M ’23. Auf Wunsch mit Online-Tasting am 21. November um 19:30 Uhr.</p>
+									<p style="margin:0 0 16px; font:400 15px/23px 'Nunito', Arial, sans-serif; color:#333;">83 € inkl. Versandkosten (anstatt 86 €)</p>
+									<hr style="border:none; border-top:1px solid #ddd; margin:16px 0;" />
+										<p style="margin:0 0 6px; font:700 18px 'Nunito', Arial, sans-serif; color:#8b2323;">Dry Christmas</p>
+									<p style="margin:0 0 8px; font:300 15px/23px 'Nunito', Arial, sans-serif; color:#444;">Je 1 Flasche DESERTEUR Riesling, Pinot Secco, Pinot Noir, Sparkling Riesling sowie 2 Flaschen Sparkling Rosé (alles alkoholfrei).</p>
+									<p style="margin:0; font:400 15px/23px 'Nunito', Arial, sans-serif; color:#333;">69 € inkl. Versandkosten (anstatt 85,30 €)</p>
+								</div>
+
+									<p style="margin:12px 0 0; font:300 15px/23px 'Nunito', Arial, Helvetica, sans-serif; color:#444;">
+										Das Advents- und Festtagspaket ist bestellbar per Antwort auf diese Mail oder per WhatsApp an <a href="https://wa.me/491717621348" style="color:#8b2323; text-decoration:underline;">0171&nbsp;/&nbsp;7621348</a> oder telefonisch unter <a href="tel:+4967239986900" style="color:#8b2323; text-decoration:underline;">06723&nbsp;/&nbsp;9986900</a>.
+									</p>
+
+									<p style="margin:8px 0 0; font:300 14px/22px 'Nunito', Arial, Helvetica, sans-serif; color:#666;">
+										Die Sonderpakete sind nur in begrenzter Stückzahl erhältlich – gültig bis 31. Dezember 2025, solange der Vorrat reicht.
+									</p>
+
+										<p style="margin:32px 0 12px; font:400 17px/25px 'Nunito', Arial, Helvetica, sans-serif; color:#333;">
+											Zudem gibt’s in den kommenden Wochen viele Gelegenheiten, uns und unsere Weine persönlich zu erleben:
+										</p>
+
+										<p style="margin:32px 0 16px; font:400 28px/32px 'Bebas Neue', 'Nunito', Arial, Helvetica, sans-serif; letter-spacing:1px; color:#333;">
+											BIBO RUNGE LIVE ERLEBEN
+										</p>
+
+									<!-- Event 2 -->
+									<div style="margin:0 0 20px;">
+										<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="table-layout:fixed;">
+											<tr>
+												<td style="padding:0;">
+													<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background:#fafafa; border:1px solid #ddd; border-radius:12px;">
+														<tr>
+															<td class="tflex" width="110" valign="middle" style="padding:16px 20px; text-align:center; font:700 32px/34px 'Bebas Neue', Arial, Helvetica, sans-serif; letter-spacing:1px; color:#8b2323;">
+																<span style="display:block;">02</span><span style="display:block;">NOV</span>
+															</td>
+															<td class="tflex" valign="top" style="padding:16px 20px;">
+																<p style="margin:0 0 6px; font:400 20px/24px 'Bebas Neue', Arial, Helvetica, sans-serif; color:#333;">
+																	<strong>02. November 2025</strong> – Weinprobiertag in Wemmetsweiler an der Saar
+																</p>
+																<p style="margin:0 0 6px; font:300 16px/26px 'Nunito', Arial, Helvetica, sans-serif; color:#333;">
+																	Erstmalig sind wir bei unserem Fair’n Green-Freund Christian Löw zu Gast – im wunderschönen Kuppelsaal des Rathauses Wemmetsweiler. Von 12 bis 18 Uhr, Eintritt frei!
+																</p>
+																<p style="margin:0;">
+																	<a href="https://bibo-runge-wein.de/events/02-11-2025-weinprobiertag-in-wemmetsweiler-an-der-saar/" style="color:#333; text-decoration:underline;">Mehr erfahren ›</a>
+																</p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</div>
+
+									<!-- Event 3 -->
+									<div style="margin:0 0 20px;">
+										<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="table-layout:fixed;">
+											<tr>
+												<td style="padding:0;">
+													<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background:#fafafa; border:1px solid #ddd; border-radius:12px;">
+														<tr>
+															<td class="tflex" width="110" valign="middle" style="padding:16px 20px; text-align:center; font:700 32px/34px 'Bebas Neue', Arial, Helvetica, sans-serif; letter-spacing:1px; color:#8b2323;">
+																<span style="display:block;">15–16</span><span style="display:block;">NOV</span>
+															</td>
+															<td class="tflex" valign="top" style="padding:16px 20px;">
+																<p style="margin:0 0 6px; font:400 20px/24px 'Bebas Neue', Arial, Helvetica, sans-serif; color:#333;">
+																	<strong>15.–16. November 2025</strong> – Jahrgangspräsentation im Weingut
+																</p>
+																<p style="margin:0 0 6px; font:300 16px/26px 'Nunito', Arial, Helvetica, sans-serif; color:#333;">
+																	Probieren Sie den neuen Jahrgang direkt im Weingut Bibo Runge. Samstag 15:00–20:00 Uhr, Sonntag 14:00–18:00 Uhr. Eintritt frei!
+																</p>
+																<p style="margin:0;">
+																	<a href="https://bibo-runge-wein.de/events/15-16-11-2025-jahrgangspraesentation/" style="color:#333; text-decoration:underline;">Mehr erfahren ›</a>
+																</p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</div>
+
+									<!-- Event 4 -->
+									<div style="margin:0 0 20px;">
+										<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="table-layout:fixed;">
+											<tr>
+												<td style="padding:0;">
+													<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background:#fafafa; border:1px solid #ddd; border-radius:12px;">
+														<tr>
+															<td class="tflex" width="110" valign="middle" style="padding:16px 20px; text-align:center; font:700 32px/34px 'Bebas Neue', Arial, Helvetica, sans-serif; letter-spacing:1px; color:#8b2323;">
+																<span style="display:block;">21</span><span style="display:block;">NOV</span>
+															</td>
+															<td class="tflex" valign="top" style="padding:16px 20px;">
+																<p style="margin:0 0 6px; font:400 20px/24px 'Bebas Neue', Arial, Helvetica, sans-serif; color:#333;">
+																	<strong>21. November 2025</strong> – Online-Jahrgangspräsentation
+																</p>
+																<p style="margin:0 0 6px; font:300 16px/26px 'Nunito', Arial, Helvetica, sans-serif; color:#333;">
+																	Erleben Sie die Präsentation des neuen Jahrgangs live von zu Hause über Microsoft Teams – mit Crémant, drei Weißweinen und einem Rotwein im Tasting-Paket. Beginn: 19:30 Uhr.
+																</p>
+																<p style="margin:0;">
+																	<a href="https://bibo-runge-wein.de/events/21-11-25-online-jahrgangspraesentation/" style="color:#333; text-decoration:underline;">Mehr erfahren ›</a>
+																</p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</div>
+
+									<p style="margin-top:20px; font:300 15px 'Nunito', Arial, sans-serif; color:#444;">
+										Wir freuen uns auf Ihren Besuch – ob live im Weingut oder online von zu Hause!
+									</p>
+														<p style="margin:24px 0 0; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; color:#333;">
+															Herzliche Grüße aus dem Rheingau<br />
+															Monika & Markus
+                                            
 														</p>
-														<table class="btn-01" align="center" cellpadding="0" cellspacing="0" role="presentation" style="margin:0 auto 32px;">
+														<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="margin:32px 0 0;">
 															<tr>
-																<td style="background:#8b2323; border-radius:999px;">
-																	<a href="https://shop-bibo-runge.de/" style="color:#fff; text-decoration:none; display:block; padding:12px 18px;">Zum Onlineshop</a>
+																<td align="center" style="padding:0;">
+																	<img src="https://raw.githubusercontent.com/dabo53/newsletter-vorlagen-html/main/Lese%20Event%20Rabatt/Weingut-30%202%20(1).jpg" width="100%" style="width:100%; max-width:552px; border-radius:12px; display:block; margin:0;" alt="Monika und Markus im Weinberg" />
 																</td>
 															</tr>
 														</table>
-													</td>
-												</tr>
-												<tr>
-													<td style="padding:24px 10px 0; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; color:#333;">
-														<p style="margin:0 0 16px; font:400 28px/32px 'Bebas Neue', 'Nunito', 'Lato', Arial, Helvetica, sans-serif; letter-spacing:1px; color:#333;">
-															BIBO RUNGE LIVE ERLEBEN
-														</p>
-														<div style="margin:0 0 20px;">
-															<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="table-layout:fixed;">
-																<tr>
-																	<td style="padding:0;">
-																		<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background:#fafafa; border:1px solid #ddd; border-radius:12px;">
-																			<tr>
-																				<td class="tflex" width="110" valign="middle" style="padding:16px 20px; text-align:center; font:700 32px/34px 'Bebas Neue', 'Nunito', 'Lato', Arial, Helvetica, sans-serif; letter-spacing:1px; color:#8b2323;">
-																					<span style="display:block;">26</span>
-																					<span style="display:block;">OKT</span>
-																				</td>
-																				<td class="tflex" valign="top" style="padding:16px 20px; word-break:break-word; overflow-wrap:anywhere;">
-								<p style="margin:0 0 6px; font:400 20px/24px 'Bebas Neue', 'Nunito', 'Lato', Arial, Helvetica, sans-serif; letter-spacing:1px; color:#333;"><span style="font-weight:700;">26. Oktober 2025</span> – Weinpräsentation in Bonn</p>
-								<p style="margin:0 0 6px; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; color:#333; line-height:1.6;">Wir präsentieren unseren aktuellen Jahrgang bei der Bonner Weinpräsentation und schenken ausgewählte Rieslinge persönlich ein.</p>
-																					<p style="margin:0; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; line-height:1.6;"><a href="https://bibo-runge-wein.de/events/27-10-2025-weinpraesentation-in-bonn/" style="color:#333; text-decoration:underline;">Mehr erfahren ›</a></p>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
-															</table>
-														</div>
-														<div style="margin:0 0 20px;">
-															<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="table-layout:fixed;">
-																<tr>
-																	<td style="padding:0;">
-																		<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background:#fafafa; border:1px solid #ddd; border-radius:12px;">
-																			<tr>
-																				<td class="tflex" width="110" valign="middle" style="padding:16px 20px; text-align:center; font:700 32px/34px 'Bebas Neue', 'Nunito', 'Lato', Arial, Helvetica, sans-serif; letter-spacing:1px; color:#8b2323;">
-																					<span style="display:block;">02</span>
-																					<span style="display:block;">NOV</span>
-																				</td>
-																				<td class="tflex" valign="top" style="padding:16px 20px; word-break:break-word; overflow-wrap:anywhere;">
-								<p style="margin:0 0 6px; font:400 20px/24px 'Bebas Neue', 'Nunito', 'Lato', Arial, Helvetica, sans-serif; letter-spacing:1px; color:#333;"><span style="font-weight:700;">02. November 2025</span> – Weinprobiertag in Wemmetsweiler an der Saar</p>
-								<p style="margin:0 0 6px; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; color:#333; line-height:1.6;">Freuen Sie sich auf einen Probiertag im Saarland mit einer kuratierten Auswahl unserer Weine und persönlicher Beratung durch das Team.</p>
-																					<p style="margin:0; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; line-height:1.6;"><a href="https://bibo-runge-wein.de/events/02-11-2025-weinprobiertag-in-wemmetsweiler-an-der-saar/" style="color:#333; text-decoration:underline;">Mehr erfahren ›</a></p>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
-															</table>
-														</div>
-														<div style="margin:0 0 20px;">
-															<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="table-layout:fixed;">
-																<tr>
-																	<td style="padding:0;">
-																		<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background:#fafafa; border:1px solid #ddd; border-radius:12px;">
-																			<tr>
-																				<td class="tflex" width="110" valign="middle" style="padding:16px 20px; text-align:center; font:700 32px/34px 'Bebas Neue', 'Nunito', 'Lato', Arial, Helvetica, sans-serif; letter-spacing:1px; color:#8b2323;">
-																					<span style="display:block;">15–16</span>
-																					<span style="display:block;">NOV</span>
-																				</td>
-																				<td class="tflex" valign="top" style="padding:16px 20px; word-break:break-word; overflow-wrap:anywhere;">
-								<p style="margin:0 0 6px; font:400 20px/24px 'Bebas Neue', 'Nunito', 'Lato', Arial, Helvetica, sans-serif; letter-spacing:1px; color:#333;"><span style="font-weight:700;">15.–16. November 2025</span> – Jahrgangspräsentation im Weingut</p>
-								<p style="margin:0 0 6px; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; color:#333; line-height:1.6;">Probieren Sie den kompletten Jahrgang direkt im Weingut BIBO RUNGE und werfen Sie einen Blick hinter die Kulissen unserer Kellerarbeit.</p>
-																					<p style="margin:0; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; line-height:1.6;"><a href="https://bibo-runge-wein.de/events/15-16-11-2025-jahrgangspraesentation/" style="color:#333; text-decoration:underline;">Mehr erfahren ›</a></p>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
-															</table>
-														</div>
-														<div style="margin:0 0 20px;">
-															<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="table-layout:fixed;">
-																<tr>
-																	<td style="padding:0;">
-																		<table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background:#fafafa; border:1px solid #ddd; border-radius:12px;">
-																			<tr>
-																				<td class="tflex" width="110" valign="middle" style="padding:16px 20px; text-align:center; font:700 32px/34px 'Bebas Neue', 'Nunito', 'Lato', Arial, Helvetica, sans-serif; letter-spacing:1px; color:#8b2323;">
-																					<span style="display:block;">21</span>
-																					<span style="display:block;">NOV</span>
-																				</td>
-																				<td class="tflex" valign="top" style="padding:16px 20px; word-break:break-word; overflow-wrap:anywhere;">
-								<p style="margin:0 0 6px; font:400 20px/24px 'Bebas Neue', 'Nunito', 'Lato', Arial, Helvetica, sans-serif; letter-spacing:1px; color:#333;"><span style="font-weight:700;">21. November 2025</span> – Online-Jahrgangspräsentation</p>
-								<p style="margin:0 0 6px; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; color:#333; line-height:1.6;">Wir führen per Microsoft Teams durch das neue Sortiment – verkosten Sie live von zu Hause und stellen Sie Ihre Fragen direkt an das Winzerteam.</p>
-																					<p style="margin:0; font:300 16px/26px 'Nunito', 'Lato', Arial, Helvetica, sans-serif; line-height:1.6;"><a href="https://bibo-runge-wein.de/events/21-11-25-online-jahrgangspraesentation/" style="color:#333; text-decoration:underline;">Mehr erfahren ›</a></p>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
-															</table>
-														</div>
 													</td>
 												</tr>
 											</table>
